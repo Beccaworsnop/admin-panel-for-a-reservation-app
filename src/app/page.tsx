@@ -7,6 +7,9 @@ import { HostInsight } from "../../componenets/host-insight"
 import { ReservationManagement } from "../../componenets/reservation-management" 
 import { PaymentManagement } from "../../componenets/payment-management" 
 import { Analytics } from "../../componenets/analytics" 
+import { CouponsManagement } from "../../componenets/cuppons-management"
+import { SettingsManagement } from "../../componenets/settings-management"
+import { ContentManagement } from "../../componenets/content-management"
 import { useMobile } from "../../hooks/use-mobile" 
 
 export default function AdminDashboard() {
@@ -43,26 +46,11 @@ export default function AdminDashboard() {
           </div>
         )
       case "coupons":
-        return (
-          <div className="p-6">
-            <h2 className="text-xl font-semibold">Coupons Management</h2>
-            <p className="text-gray-600 mt-2">Coupons management interface coming soon...</p>
-          </div>
-        )
+        return <CouponsManagement />
       case "content":
-        return (
-          <div className="p-6">
-            <h2 className="text-xl font-semibold">Content Management</h2>
-            <p className="text-gray-600 mt-2">Content management interface coming soon...</p>
-          </div>
-        )
+        return <ContentManagement />
       case "settings":
-        return (
-          <div className="p-6">
-            <h2 className="text-xl font-semibold">Settings</h2>
-            <p className="text-gray-600 mt-2">Settings interface coming soon...</p>
-          </div>
-        )
+        return <SettingsManagement />
       case "live-chat":
         return (
           <div className="p-6">
