@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Badge } from "./ui/badge" 
-import { ReservationDetailsModal } from "./reservation-details-modal" 
+import { ReservationDetailsModal } from "./reservation-details-modal"
 import { Search, Filter, Calendar, Users, Download, Plus, ChevronDown } from "lucide-react"
 
 const apartmentReservations = [

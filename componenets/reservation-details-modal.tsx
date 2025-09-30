@@ -3,7 +3,7 @@ import { useState, useRef } from "react"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Badge } from "./ui/badge" 
+import { Badge } from "./ui/badge"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Star, Upload, Check, XCircle } from "lucide-react"
 
@@ -87,7 +87,7 @@ export function ReservationDetailsModal({ isOpen, onClose, reservationId }: Rese
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-6xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="bg-white max-w-7xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <div className="flex items-center justify-between">
             <DialogTitle className="text-xl font-semibold">Reservation Details</DialogTitle>
