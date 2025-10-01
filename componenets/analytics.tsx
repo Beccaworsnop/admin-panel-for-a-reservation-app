@@ -64,7 +64,7 @@ export function Analytics() {
               <Filter className="w-4 h-4 mr-2" />
               Filter
             </Button>
-            <Button size="sm" className="bg-gray-900 hover:bg-gray-800 w-full sm:w-auto" onClick={handleExportReports}>
+            <Button size="sm" className="bg-blue-900 hover:bg-gray-800 w-full sm:w-auto" onClick={handleExportReports}>
               <Download className="w-4 h-4 mr-2" />
               Export Reports
             </Button>

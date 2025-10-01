@@ -71,10 +71,7 @@ export function HostInsight() {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4 lg:mb-6 gap-4">
           <h2 className="text-lg lg:text-xl font-semibold text-gray-900">Host insight</h2>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4">
-            <span className="text-sm text-gray-600">Total hosts: 3</span>
-            <Button variant="default" size="sm" className="bg-gray-900 hover:bg-gray-800 w-full sm:w-auto">
-              Global analytics
-            </Button>
+            
           </div>
         </div>
 

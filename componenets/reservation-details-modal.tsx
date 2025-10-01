@@ -87,7 +87,7 @@ export function ReservationDetailsModal({ isOpen, onClose, reservationId }: Rese
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="bg-white max-w-7xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="bg-white max-w-9xl max-h-[100vh] overflow-y-auto">
         <DialogHeader>
           <div className="flex items-center justify-between">
             <DialogTitle className="text-xl font-semibold">Reservation Details</DialogTitle>
@@ -271,7 +271,7 @@ export function ReservationDetailsModal({ isOpen, onClose, reservationId }: Rese
                       onChange={(e) => setCashPaymentData((prev) => ({ ...prev, date: e.target.value }))}
                     />
                   </div>
-                  <Button className="w-full bg-gray-900 hover:bg-gray-800" onClick={handleConfirmCashPayment}>
+                  <Button className="w-full bg-blue-900 hover:bg-gray-800" onClick={handleConfirmCashPayment}>
                     <Check className="w-4 h-4 mr-2" />
                     Confirm Cash Payment
                   </Button>
@@ -326,7 +326,7 @@ export function ReservationDetailsModal({ isOpen, onClose, reservationId }: Rese
                       onChange={(e) => setCcpTransferData((prev) => ({ ...prev, agentName: e.target.value }))}
                     />
                   </div>
-                  <Button className="w-full bg-gray-900 hover:bg-gray-800" onClick={handleConfirmCcpTransfer}>
+                  <Button className="w-full bg-blue-900 hover:bg-gray-800" onClick={handleConfirmCcpTransfer}>
                     <Check className="w-4 h-4 mr-2" />
                     Confirm CCP Transfer
                   </Button>
@@ -389,7 +389,7 @@ export function ReservationDetailsModal({ isOpen, onClose, reservationId }: Rese
                       onChange={(e) => setBankTransferData((prev) => ({ ...prev, agentName: e.target.value }))}
                     />
                   </div>
-                  <Button className="w-full bg-gray-900 hover:bg-gray-800" onClick={handleConfirmBankTransfer}>
+                  <Button className="w-full bg-blue-900 hover:bg-gray-800" onClick={handleConfirmBankTransfer}>
                     <Check className="w-4 h-4 mr-2" />
                     Confirm Bank Transfer
                   </Button>
