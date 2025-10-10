@@ -1,0 +1,40 @@
+1-in reservations (hotels): 
+
+in price there is always purchase price, margin and sale price 
+
+purchase price + margin on the purchase price = sale price 
+
+
+
+reservations that are booked online (and are available) be instantly confirmed
+
+there is three types of reservations (confirmed, saved, canceled) that should appear 
+under each one there is sub-state it should be stated whether it is available (disponible) or on request (sur demande) 
+
+in reservation details there should be section for the supplier's information regarding the reservation 
+like booked through XML from (from supplier's name) date of creation : 
+state: confirmed, canceled, not created yet
+
+
+
+
+reservations that are 'saved' but not confirmed (reservations that is gonna be done with cash or bank transfer)
+after clicking confirm payment ( the amount paid should automatically be registered in the google sheet and sent to a WhatsApp group with reservation number and date, receipt number AND receipt image) 
+
+receipts should be uploaded on cash payment as well 
+
+CCP transfer should be removed
+
+
+
+when clicked on (manage this reservation) there should be some confirmation, each agent is gonna have his account so no need to put agent name, when the agent manage the reservation their name is gonna appear 
+
+after clicking the manage this reservation, there is always cancel button, to cancel saved reservations, or confirmed ones 
+with mentioning reason of cancelling (client did not pick up / client changed his mind/ client wants to change his reservation (place or hotel or time) ) 
+
+
+
+
+2- in margin (hotels): 
+margin is set for the purchase price only, not according to number of nights 
+the margin can be set for each hotel or all hotels at ones
